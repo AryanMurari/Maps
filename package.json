@@ -1,0 +1,29 @@
+{
+  "name": "map",
+  "main": "expo-router/entry",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^7.0.14",
+    "expo": "~52.0.43",
+    "expo-constants": "~17.0.8",
+    "expo-linking": "~7.0.5",
+    "expo-location": "~18.0.10",
+    "expo-router": "~4.0.20",
+    "expo-splash-screen": "~0.29.22",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-maps": "1.18.0",
+    "react-native-screens": "~4.4.0",
+    "react-native-web": "~0.19.13",
+    "react-native-web-maps": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
