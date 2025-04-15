@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
 const GOOGLE_MAPS_API_KEY = (process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY) || '';
+// create an .env file and add EXPO_PUBLIC_GOOGLE_MAPS_API_KEY=your_api_key in it.
 
 // Add Google Maps types
 declare global {
